@@ -1,0 +1,82 @@
+@font-face {
+    font-family: 'Modak';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/modak/v18/EJRYQgs1XtIEskMA-hQ.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+  }
+
+  @font-face {
+    font-family: 'Monofett';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/monofett/v22/mFTyWbofw6zc9NtnW73Vsx0.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+  }
+
+html {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(88, 164, 88);
+}
+body {
+    font-family: 'Monofett', 'Modak', Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(96, 144, 96);
+    width: 60%;
+    height: 80%;
+    text-align: center;
+    box-shadow: 10px -10px 20px rgb(26, 75, 26),
+                -8px 8px 20px rgb(151, 235, 151);
+    border-radius: 4rem;
+}
+
+button {
+    font-family: 'Modak', 'Monofett', Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 1.8rem;
+    border: 0;
+    background-color: rgb(112, 168, 112);
+    margin-top: 2rem;
+    height: 18%;
+    width: 18%;
+    box-shadow: 4px -4px 18px rgb(199, 233, 199),
+                inset -6px 6px 18px rgb(25, 69, 25),
+                -6px 6px 18px rgb(21, 62, 21),
+                inset 8px -8px 18px rgb(188, 225, 188);
+    border-radius: 0.5rem;
+}
+
+p {
+    display: flex;
+    font-size: 2.3rem;
+    font-weight: 100;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 2rem;
+    height: 10%;
+    width: 95%;
+    background-color: rgb(96, 144, 96);
+    box-shadow: inset 3px -3px 12px rgb(236, 235, 222),
+                inset -3px 3px 12px rgb(0, 0, 0);
+    border-radius: 1rem;
+}
+
+button:active {
+    position: relative;
+    transform: translate(-2px, 4px);
+    box-shadow: inset -6px 6px 18px rgb(25, 69, 25),
+                inset 8px -8px 18px rgb(151, 235, 151);
+}
+
+h1 {
+    font-size: 3rem;
+    font-weight: 300;
+}

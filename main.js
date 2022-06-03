@@ -20,9 +20,6 @@ let randomComponentGenerator = function(subjectArray, actionArray, objectArray) 
 
 function randomMessageGenerator(subjectArray, actionArray, objectArray) {
     let generatedMessage = randomComponentGenerator(subjectArray, actionArray, objectArray).join('');
-    return generatedMessage;
+    let messageBox = document.querySelector('#randomMessageBox');
+    messageBox.innerHTML = generatedMessage;
 }
-
-
-
-console.log(randomMessageGenerator(subjects, actions, objects));
